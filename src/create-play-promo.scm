@@ -31,7 +31,7 @@
   (let*
     ( 
       (img (car (gimp-file-load RUN-NONINTERACTIVE "assets/connectbot-promo-bg.png" "assets/connectbot-promo-bg.png")))
-      (logo-layer (car (gimp-file-load-layer RUN-NONINTERACTIVE img "assets/connectbot-promo-logo.png")))
+      (logo-layer (car (gimp-file-load-layer RUN-NONINTERACTIVE img "assets/connectbot-logo-512.png")))
     )
     ; Adjust the logo
     (gimp-image-insert-layer img logo-layer 0 -1)

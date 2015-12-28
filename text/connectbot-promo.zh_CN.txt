@@ -1,1 +1,1 @@
-第一个SSH用戶端Android版。
+第一个Android版的SSH客户端。
